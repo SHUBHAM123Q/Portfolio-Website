@@ -435,8 +435,14 @@ span{
         display: none;
     }
 
-    .navbar.active {
+    .navbar .active {
         display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
     }
 
     .home {
@@ -501,6 +507,6 @@ span{
     }
 
     .content form .input-box input {
-        width: 1--%;
+        width: 100%;
     } 
 }
